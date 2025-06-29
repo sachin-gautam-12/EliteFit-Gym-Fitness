@@ -1,0 +1,10 @@
+elitefit-gym/
+├── index.html          # Main website file
+├── README.md           # Project documentation
+├── LICENSE             # License file
+├── .gitignore          # Files to ignore in Git
+├── screenshots/        # Folder for screenshots
+│   ├── home.jpg        # Homepage screenshot
+│   ├── workouts.jpg    # Workouts section screenshot
+│   └── videos.jpg      # Videos section screenshot
+└── preview.jpg         # Main preview image
