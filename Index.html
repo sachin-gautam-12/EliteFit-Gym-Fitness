@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteFit Gym & Fitness Center</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+      ...........................
+        </style>
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><span>Elite</span>Fit</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#workouts">Workouts</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#trainers">Trainers</a></li>
+                    <li><a href="#diet">Diet Plans</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                    <li><a href="#tracker">Progress</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn login">Login</button>
+                <button class="btn signup">Sign Up</button>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transform Your Body, <span>Transform Your Life</span></h1>
+                <p>Join our fitness community and achieve your dream body with personalized workout plans and expert guidance from certified trainers.</p>
+                <div class="hero-buttons">
+                    <button class="btn primary">Get Started</button>
+                    <button class="btn secondary">Free Trial</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Fitness Model">
+            </div>
+        </div>
+    </section>
+
+    <!-- Workouts Section -->
+    <section class="workouts" id="workouts">
+        <div class="container">
+            <h2 class="section-title">Workout Programs</h2>
+            <p class="section-subtitle">Choose from our variety of workout programs tailored for all fitness levels</p>
+            
+            <div class="workout-levels">
+                <div class="level-tabs">
+                    <button class="tab-btn active" data-level="beginner">Beginner</button>
+                    <button class="tab-btn" data-level="intermediate">Intermediate</button>
+                    <button class="tab-btn" data-level="advanced">Advanced</button>
+                </div>
+                
+                <div class="workout-plans">
+                    <!-- Beginner Workouts -->
+                    <div class="workout-plan beginner show">
+                        <div class="plan-card">
+                            <div class="card-icon">
+                                <i class="fas fa-dumbbell"></i>
+                            </div>
+                            <h3>Full Body Starter</h3>
+                            <p>Perfect for those just starting their fitness journey</p>
+                            <ul>
+                                <li>3 days/week</li>
+                                <li>30-45 min sessions</li>
+                                <li>Bodyweight exercises</li>
+                                <li>Focus on form</li>
+                                <li>Gradual progression</li>
+                            </ul>
+                            <button class="btn outline">View Plan</button>
+                        </div>
+                        
+                        <div class="plan-card">
+                            <div class="card-icon">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <h3>Cardio Foundation</h3>
+                            <p>Build endurance with low-impact cardio</p>
+                            <ul>
+                                <li>4 days/week</li>
+                                <li>20-30 min sessions</li>
+                                <li>Walking, cycling, swimming</li>
+                                <li>Heart rate monitoring</li>
+                                <li>Build stamina</li>
+                            </ul>
+                            <button class="btn outline">View Plan</button>
+                        </div>
+                        
+                        <div class="plan-card">
+                            <div class="card-icon">
+                                <i class="fas fa-child"></i>
+                            </div>
+                            <h3>Flexibility & Mobility</h3>
+                            <p>Improve range of motion and reduce injury risk</p>
+                            <ul>
+                                <li>5 days/week</li>
+                                <li>15-20 min sessions</li>
+                                <li>Stretching and yoga</li>
+                                <li>Joint mobility</li>
+                                <li>Relaxation techniques</li>
+                            </ul>
+                            <button class="btn outline">View Plan</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Intermediate Workouts -->
+                    <div class="workout-plan intermediate">
+                        <div class="plan-card">
+                            <div class="card-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <h3>Muscle Building</h3>
+                            <p>Hypertrophy-focused training for muscle growth</p>
+                            <ul>
+                                <li>4-5 days/week</li>
+                                <li>45-60 min sessions</li>
+                                <li>Weight training</li>
+                                <li>Progressive overload</li>
+                                <li>Muscle group split</li>
+                            </ul>
+                            <button class="btn outline">View Plan</button>
+                        </div>
+                        
+                        <div class="plan-card">
+                            <div class="card-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h3>HIIT Training</h3>
+                            <p>High-intensity interval training for fat loss</p>
+                            <ul>
+                                <li>3-4 days/week</li>
+                                <li>20-30 min sessions</li>
+                                <li>Circuit training</li>
+                                <li>Fat burning</li>
+                                <li>Metabolic boost</li>
+                            </ul>
+                            <button class="btn outline">View Plan</button>
+                        </div>
+                        
+                        <div class="plan-card">
+                            <div class="card-icon">
+                                <i class="fas fa-running"></i>
+                            </div>
+                            <h3>Strength & Conditioning</h3>
+                            <p>Build functional strength and power</p>
+                            <ul>
+                                <li>4 days/week</li>
+                                <li>45-60 min sessions</li>
+                                <li>Compound lifts</li>
+                                <li>Power development</li>
+                                <li>Functional movements</li>
+                            </ul>
+                            <button class="btn outline">View Plan</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Advanced Workouts -->
+                    <div class="workout-plan advanced">
+                        <div class="plan-card">
+                            <div class="card-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h3>Bodybuilding Split</h3>
+                            <p>Advanced muscle isolation techniques</p>
+                            <ul>
+                                <li>5-6 days/week</li>
+                                <li>60-90 min sessions</li>
+                                <li>Targeted muscle groups</li>
+                                <li>Advanced techniques</li>
+                                <li>Competition prep</li>
+                            </ul>
+                            <button class="btn outline">View Plan</button>
+                        </div>
+                        
+                        <div class="plan-card">
+                            <div class="card-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <h3>Powerlifting Program</h3>
+                            <p>Maximize your strength on the big three lifts</p>
+                            <ul>
+                                <li>4-5 days/week</li>
+                                <li>60-90 min sessions</li>
+                                <li>Squat, bench, deadlift focus</li>
+                                <li>Peaking cycles</li>
+                                <li>Strength programming</li>
+                            </ul>
+                            <button class="btn outline">View Plan</button>
+                        </div>
+                        
+                        <div class="plan-card">
+                            <div class="card-icon">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                            <h3>Elite Athlete Training</h3>
+                            <p>Peak performance programming</p>
+                            <ul>
+                                <li>6 days/week</li>
+                                <li>90-120 min sessions</li>
+                                <li>Sport-specific training</li>
+                                <li>Performance metrics</li>
+                                <li>Advanced recovery</li>
+                            </ul>
+                            <button class="btn outline">View Plan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section" id="videos">
+        <div class="container">
+            <h2 class="section-title">Workout Videos</h2>
+            <p class="section-subtitle">Follow along with our expert trainers</p>
+            
+            <div class="video-categories">
+                <button class="video-category-btn active" data-category="all">All Videos</button>
+                <button class="video-category-btn" data-category="cardio">Cardio</button>
+                <button class="video-category-btn" data-category="strength">Strength</button>
+                <button class="video-category-btn" data-category="hiit">HIIT</button>
+                <button class="video-category-btn" data-category="yoga">Yoga</button>
+            </div>
+            
+            <div class="video-grid">
+                <!-- Cardio Videos -->
+                <div class="video-card" data-category="cardio">
+                    <div class="video-thumbnail" data-video="https://www.youtube.com/embed/MLpWrANjFbI">
+                        <img src="https://img.youtube.com/vi/MLpWrANjFbI/maxresdefault.jpg" alt="Full Body HIIT Workout">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <h3>Full Body HIIT Workout</h3>
+                    <p>30 min | No equipment needed</p>
+                </div>
+                
+                <div class="video-card" data-category="cardio">
+                    <div class="video-thumbnail" data-video="https://www.youtube.com/embed/UBMk30rjy0o">
+                        <img src="https://img.youtube.com/vi/UBMk30rjy0o/maxresdefault.jpg" alt="Treadmill Interval Training">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <h3>Treadmill Interval Training</h3>
+                    <p>25 min | Beginner to Intermediate</p>
+                </div>
+                
+                <!-- Strength Videos -->
+                <div class="video-card" data-category="strength">
+                    <div class="video-thumbnail" data-video="https://www.youtube.com/embed/RqRwREp5S5w">
+                        <img src="https://img.youtube.com/vi/RqRwREp5S5w/maxresdefault.jpg" alt="Upper Body Strength">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <h3>Upper Body Strength</h3>
+                    <p>45 min | Dumbbells required</p>
+                </div>
+                
+                <div class="video-card" data-category="strength">
+                    <div class="video-thumbnail" data-video="https://www.youtube.com/embed/6EGJSKEdJj4">
+                        <img src="https://img.youtube.com/vi/6EGJSKEdJj4/maxresdefault.jpg" alt="Leg Day Killer">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <h3>Leg Day Killer</h3>
+                    <p>50 min | Gym equipment needed</p>
+                </div>
+                
+                <!-- HIIT Videos -->
+                <div class="video-card" data-category="hiit">
+                    <div class="video-thumbnail" data-video="https://www.youtube.com/embed/7TLk7pscICk">
+                        <img src="https://img.youtube.com/vi/7TLk7pscICk/maxresdefault.jpg" alt="Tabata HIIT Workout">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <h3>Tabata HIIT Workout</h3>
+                    <p>20 min | High intensity</p>
+                </div>
+                
+                <div class="video-card" data-category="hiit">
+                    <div class="video-thumbnail" data-video="https://www.youtube.com/embed/j7rKKpwdXNE">
+                        <img src="https://img.youtube.com/vi/j7rKKpwdXNE/maxresdefault.jpg" alt="Kettlebell HIIT">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <h3>Kettlebell HIIT</h3>
+                    <p>30 min | Kettlebell required</p>
+                </div>
+                
+                <!-- Yoga Videos -->
+                <div class="video-card" data-category="yoga">
+                    <div class="video-thumbnail" data-video="https://www.youtube.com/embed/X3-gKPNyrTA">
+                        <img src="https://img.youtube.com/vi/X3-gKPNyrTA/maxresdefault.jpg" alt="Morning Yoga Flow">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <h3>Morning Yoga Flow</h3>
+                    <p>20 min | All levels</p>
+                </div>
+                
+                <div class="video-card" data-category="yoga">
+                    <div class="video-thumbnail" data-video="https://www.youtube.com/embed/Eml2xnoLpYE">
+                        <img src="https://img.youtube.com/vi/Eml2xnoLpYE/maxresdefault.jpg" alt="Yoga for Flexibility">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <h3>Yoga for Flexibility</h3>
+                    <p>30 min | Intermediate</p>
+                </div>
+            </div>
+            
+            <div class="video-modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section class="trainers" id="trainers">
+        <div class="container">
+            <h2 class="section-title">Our Expert Trainers</h2>
+            <p class="section-subtitle">Learn from certified professionals with years of experience</p>
+            
+            <div class="trainer-grid">
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Trainer John">
+                    </div>
+                    <div class="trainer-info">
+                        <h3>John Peterson</h3>
+                        <p class="specialty">Strength & Conditioning</p>
+                        <p class="bio">With 10+ years of experience, John specializes in strength training and athletic performance enhancement.</p>
+                        <div class="trainer-social">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Trainer Sarah">
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Sarah Johnson</h3>
+                        <p class="specialty">Yoga & Mobility</p>
+                        <p class="bio">Sarah brings 8 years of yoga expertise, helping clients improve flexibility, mobility, and mindfulness.</p>
+                        <div class="trainer-social">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Trainer Mike">
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Mike Rodriguez</h3>
+                        <p class="specialty">HIIT & Functional Training</p>
+                        <p class="bio">Mike's high-energy HIIT sessions are perfect for those looking to burn fat and build endurance.</p>
+                        <div class="trainer-social">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diet Plans Section -->
+    <section class="diet-plans" id="diet">
+        <div class="container">
+            <h2 class="section-title">Diet & Nutrition Plans</h2>
+            <p class="section-subtitle">Fuel your body for optimal performance</p>
+            
+            <div class="diet-tabs">
+                <button class="diet-tab-btn active" data-diet="weight-loss">Weight Loss</button>
+                <button class="diet-tab-btn" data-diet="muscle-gain">Muscle Gain</button>
+                <button class="diet-tab-btn" data-diet="maintenance">Maintenance</button>
+                <button class="diet-tab-btn" data-diet="vegan">Vegan</button>
+            </div>
+            
+            <div class="diet-plan-content">
+                <!-- Weight Loss Plan -->
+                <div class="diet-plan weight-loss show">
+                    <div class="plan-details">
+                        <h3>Weight Loss Nutrition Plan</h3>
+                        <p>This plan is designed to help you lose fat while maintaining muscle mass through a moderate calorie deficit and balanced macronutrients. It focuses on whole, nutrient-dense foods that keep you full and energized throughout the day.</p>
+                        
+                        <div class="macros">
+                            <div class="macro">
+                                <h4>Protein</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 30%;"></div>
+                                </div>
+                                <span>30%</span>
+                            </div>
+                            <div class="macro">
+                                <h4>Carbs</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 40%;"></div>
+                                </div>
+                                <span>40%</span>
+                            </div>
+                            <div class="macro">
+                                <h4>Fats</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 30%;"></div>
+                                </div>
+                                <span>30%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="sample-meal">
+                            <h4>Sample Day Meal Plan</h4>
+                            <ul>
+                                <li>
+                                    <strong>Breakfast:</strong> 3 egg whites + 1 whole egg, 1/2 cup oatmeal with cinnamon, 1/2 cup mixed berries
+                                </li>
+                                <li>
+                                    <strong>Mid-Morning Snack:</strong> 1 scoop protein powder with water, 1 small apple
+                                </li>
+                                <li>
+                                    <strong>Lunch:</strong> 4 oz grilled chicken breast, 1 cup roasted mixed vegetables, 1/2 cup quinoa
+                                </li>
+                                <li>
+                                    <strong>Afternoon Snack:</strong> 1/4 cup raw almonds, 1 string cheese
+                                </li>
+                                <li>
+                                    <strong>Dinner:</strong> 5 oz baked salmon, 2 cups steamed broccoli, 1 small roasted sweet potato
+                                </li>
+                                <li>
+                                    <strong>Evening Snack (optional):</strong> 1 cup Greek yogurt with 1 tbsp chia seeds
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="plan-image">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80" alt="Healthy Food">
+                    </div>
+                </div>
+                
+                <!-- Muscle Gain Plan -->
+                <div class="diet-plan muscle-gain">
+                    <div class="plan-details">
+                        <h3>Muscle Gain Nutrition Plan</h3>
+                        <p>This plan provides a calorie surplus with high protein to support muscle growth and recovery from intense training. It includes nutrient timing strategies to maximize protein synthesis and muscle repair.</p>
+                        
+                        <div class="macros">
+                            <div class="macro">
+                                <h4>Protein</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 35%;"></div>
+                                </div>
+                                <span>35%</span>
+                            </div>
+                            <div class="macro">
+                                <h4>Carbs</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 45%;"></div>
+                                </div>
+                                <span>45%</span>
+                            </div>
+                            <div class="macro">
+                                <h4>Fats</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 20%;"></div>
+                                </div>
+                                <span>20%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="sample-meal">
+                            <h4>Sample Day Meal Plan</h4>
+                            <ul>
+                                <li>
+                                    <strong>Breakfast:</strong> 3 whole eggs + 3 egg whites scrambled, 2 slices whole grain toast with 1 tbsp almond butter, 1 banana
+                                </li>
+                                <li>
+                                    <strong>Mid-Morning Snack:</strong> 1 scoop protein powder with 1 cup milk, 2 tbsp peanut butter on rice cakes
+                                </li>
+                                <li>
+                                    <strong>Lunch:</strong> 6 oz lean ground beef with 1 cup brown rice, 1 cup steamed vegetables with olive oil
+                                </li>
+                                <li>
+                                    <strong>Pre-Workout:</strong> 1 cup Greek yogurt with 1/2 cup granola and honey
+                                </li>
+                                <li>
+                                    <strong>Post-Workout:</strong> 2 scoops protein powder with 1 cup oats blended into a shake
+                                </li>
+                                <li>
+                                    <strong>Dinner:</strong> 8 oz grilled chicken breast, 2 cups whole wheat pasta with pesto, 1 cup roasted vegetables
+                                </li>
+                                <li>
+                                    <strong>Before Bed:</strong> 1 cup cottage cheese with 1 tbsp almond butter and cinnamon
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="plan-image">
+                        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1453&q=80" alt="Muscle Gain Food">
+                    </div>
+                </div>
+                
+                <!-- Maintenance Plan -->
+                <div class="diet-plan maintenance">
+                    <div class="plan-details">
+                        <h3>Maintenance Nutrition Plan</h3>
+                        <p>This balanced plan helps you maintain your current weight while optimizing health and performance. It focuses on whole foods with a balance of macronutrients to support an active lifestyle.</p>
+                        
+                        <div class="macros">
+                            <div class="macro">
+                                <h4>Protein</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 30%;"></div>
+                                </div>
+                                <span>30%</span>
+                            </div>
+                            <div class="macro">
+                                <h4>Carbs</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 40%;"></div>
+                                </div>
+                                <span>40%</span>
+                            </div>
+                            <div class="macro">
+                                <h4>Fats</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 30%;"></div>
+                                </div>
+                                <span>30%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="sample-meal">
+                            <h4>Sample Day Meal Plan</h4>
+                            <ul>
+                                <li>
+                                    <strong>Breakfast:</strong> 2 whole eggs + 2 egg whites omelet with spinach and mushrooms, 1 slice whole grain toast with 1/2 avocado
+                                </li>
+                                <li>
+                                    <strong>Mid-Morning Snack:</strong> 1 scoop protein powder with water, 1 oz mixed nuts
+                                </li>
+                                <li>
+                                    <strong>Lunch:</strong> 5 oz grilled chicken, 1 cup quinoa salad with mixed vegetables and olive oil dressing
+                                </li>
+                                <li>
+                                    <strong>Afternoon Snack:</strong> 1 cup Greek yogurt with 1/4 cup mixed berries and 1 tbsp flax seeds
+                                </li>
+                                <li>
+                                    <strong>Dinner:</strong> 6 oz salmon, 1 cup roasted Brussels sprouts and carrots, 1/2 cup mashed sweet potato
+                                </li>
+                                <li>
+                                    <strong>Dessert:</strong> 1 square dark chocolate (85% cocoa) with herbal tea
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="plan-image">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Maintenance Food">
+                    </div>
+                </div>
+                
+                <!-- Vegan Plan -->
+                <div class="diet-plan vegan">
+                    <div class="plan-details">
+                        <h3>Vegan Nutrition Plan</h3>
+                        <p>Plant-based plan providing all essential nutrients for optimal health and performance. Carefully balanced to ensure adequate protein intake from plant sources while meeting all micronutrient needs.</p>
+                        
+                        <div class="macros">
+                            <div class="macro">
+                                <h4>Protein</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 25%;"></div>
+                                </div>
+                                <span>25%</span>
+                            </div>
+                            <div class="macro">
+                                <h4>Carbs</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 50%;"></div>
+                                </div>
+                                <span>50%</span>
+                            </div>
+                            <div class="macro">
+                                <h4>Fats</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 25%;"></div>
+                                </div>
+                                <span>25%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="sample-meal">
+                            <h4>Sample Day Meal Plan</h4>
+                            <ul>
+                                <li>
+                                    <strong>Breakfast:</strong> Tofu scramble with turmeric, peppers, and onions, 1 slice whole grain toast with avocado
+                                </li>
+                                <li>
+                                    <strong>Mid-Morning Snack:</strong> Vegan protein smoothie with almond milk, banana, chia seeds, and spinach
+                                </li>
+                                <li>
+                                    <strong>Lunch:</strong> Lentil and chickpea curry with brown rice, side of roasted vegetables
+                                </li>
+                                <li>
+                                    <strong>Afternoon Snack:</strong> Hummus with carrot and celery sticks, handful of almonds
+                                </li>
+                                <li>
+                                    <strong>Dinner:</strong> Quinoa and black bean stuffed peppers with avocado and salsa
+                                </li>
+                                <li>
+                                    <strong>Dessert:</strong> Chia pudding made with almond milk, topped with almond butter and cinnamon
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="plan-image">
+                        <img src="https://images.unsplash.com/photo-1543351611-58f69d7c1781?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Vegan Food">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section class="membership" id="membership">
+        <div class="container">
+            <h2 class="section-title">Membership Plans</h2>
+            <p class="section-subtitle">Choose the plan that fits your fitness goals and budget</p>
+            
+            <div class="membership-plans">
+                <div class="membership-card">
+                    <h3>Basic</h3>
+                    <div class="price">$29<span>/month</span></div>
+                    <ul>
+                        <li>Access to gym facilities</li>
+                        <li>Standard equipment</li>
+                        <li>Locker room access</li>
+                        <li>Free Wi-Fi</li>
+                        <li>1 free trainer consultation</li>
+                    </ul>
+                    <button class="btn outline">Join Now</button>
+                </div>
+                
+                <div class="membership-card popular">
+                    <h3>Premium</h3>
+                    <div class="price">$59<span>/month</span></div>
+                    <ul>
+                        <li>All Basic benefits</li>
+                        <li>Unlimited group classes</li>
+                        <li>Premium equipment access</li>
+                        <li>Monthly body composition analysis</li>
+                        <li>4 trainer consultations</li>
+                        <li>Sauna access</li>
+                    </ul>
+                    <button class="btn primary">Join Now</button>
+                </div>
+                
+                <div class="membership-card">
+                    <h3>Elite</h3>
+                    <div class="price">$99<span>/month</span></div>
+                    <ul>
+                        <li>All Premium benefits</li>
+                        <li>Personalized workout plan</li>
+                        <li>Nutrition consultation</li>
+                        <li>Unlimited trainer access</li>
+                        <li>Priority class booking</li>
+                        <li>Towels & amenities</li>
+                        <li>24/7 gym access</li>
+                    </ul>
+                    <button class="btn outline">Join Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Tracker -->
+    <section class="progress-tracker" id="tracker">
+        <div class="container">
+            <h2 class="section-title">Progress Tracker</h2>
+            <p class="section-subtitle">Track your fitness journey and stay motivated</p>
+            
+            <div class="tracker-container">
+                <div class="tracker-form">
+                    <h3>Log Your Progress</h3>
+                    <form id="progress-form">
+                        <div class="form-group">
+                            <label for="workout-date">Date</label>
+                            <input type="date" id="workout-date" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="workout-type">Workout Type</label>
+                            <select id="workout-type" required>
+                                <option value="">Select workout type</option>
+                                <option value="cardio">Cardio</option>
+                                <option value="strength">Strength Training</option>
+                                <option value="hiit">HIIT</option>
+                                <option value="yoga">Yoga/Flexibility</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="workout-duration">Duration (minutes)</label>
+                            <input type="number" id="workout-duration" min="1" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="workout-intensity">Intensity Level</label>
+                            <select id="workout-intensity" required>
+                                <option value="">Select intensity</option>
+                                <option value="1">1 (Very Light)</option>
+                                <option value="2">2 (Light)</option>
+                                <option value="3">3 (Moderate)</option>
+                                <option value="4">4 (Hard)</option>
+                                <option value="5">5 (Very Hard)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="workout-notes">Notes</label>
+                            <textarea id="workout-notes" rows="3"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn primary">Log Workout</button>
+                    </form>
+                </div>
+                
+                <div class="tracker-stats">
+                    <h3>Your Progress</h3>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value" id="total-workouts">0</div>
+                            <div class="stat-label">Total Workouts</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="total-hours">0</div>
+                            <div class="stat-label">Hours Trained</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="current-streak">0</div>
+                            <div class="stat-label">Day Streak</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="avg-intensity">0</div>
+                            <div class="stat-label">Avg Intensity</div>
+                        </div>
+                    </div>
+                    
+                    <div class="progress-chart">
+                        <canvas id="workoutChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Success Stories</h2>
+            <p class="section-subtitle">Hear from our members</p>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            "I lost 25 pounds in 3 months following the EliteFit workout and diet plans. The trainers are amazing and the community support kept me motivated throughout my journey!"
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah J.">
+                            <div class="author-info">
+                                <h4>Sarah J.</h4>
+                                <p>Weight Loss Journey</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            "As a beginner, I was intimidated by the gym. EliteFit's beginner program taught me proper form and built my confidence. Now I love working out and have completely transformed my lifestyle!"
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Michael T.">
+                            <div class="author-info">
+                                <h4>Michael T.</h4>
+                                <p>Fitness Newbie</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            "The muscle gain program helped me add 15 pounds of lean muscle in 6 months. The diet plan was key - I finally understand proper nutrition and how to fuel my body for optimal performance."
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="David R.">
+                            <div class="author-info">
+                                <h4>David R.</h4>
+                                <p>Body Transformation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">We'd love to hear from you</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Location</h4>
+                            <p>123 Fitness Avenue, Health City, HC 12345</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <p>(123) 456-7890</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p>info@elitefit.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Hours</h4>
+                            <p>Monday-Friday: 5am - 11pm</p>
+                            <p>Saturday-Sunday: 7am - 9pm</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="contact-name" placeholder="Your Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="contact-email" placeholder="Your Email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="contact-subject" placeholder="Subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="contact-message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3><span>Elite</span>Fit</h3>
+                    <p>Helping you achieve your fitness goals through personalized training programs, expert guidance, and a supportive community since 2010.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#workouts">Workouts</a></li>
+                        <li><a href="#videos">Videos</a></li>
+                        <li><a href="#trainers">Trainers</a></li>
+                        <li><a href="#diet">Diet Plans</a></li>
+                        <li><a href="#membership">Membership</a></li>
+                        <li><a href="#tracker">Progress Tracker</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get fitness tips, workout plans, and special offers</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 EliteFit Gym & Fitness Center. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+ <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      ...................................
+
+      </script>
+</body>
+</html>
